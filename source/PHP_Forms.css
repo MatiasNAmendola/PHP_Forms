@@ -1,0 +1,96 @@
+form.php_forms fieldset {
+	border: 0;
+	margin-bottom: 16px;
+}
+form.php_forms legend {
+	display: block;
+	font-size: 140%;
+	font-weight: bold;
+	width: 100%;
+	padding: 4px 8px;
+	background-color: #e4e4e4;
+	background-image: linear-gradient(to bottom, #efefef, #e4e4e4);
+	background-image: -moz-linear-gradient(top, #efefef, #e4e4e4);
+	background-image: -webkit-linear-gradient(top, #efefef, #e4e4e4);
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+form.php_forms fieldset ol {
+	margin: 0;
+	padding: 0;
+}
+form.php_forms fieldset li {
+	list-style: none;
+	padding: 5px;
+	margin: 0;
+}
+form.php_forms em {
+	font-weight: bold;
+	font-style: normal;
+	color: #f00;
+}
+form.php_forms label {
+	display: inline-block;
+	line-height: 1.8;
+	vertical-align: top;
+	width: 25%;
+	margin-right: 16px;
+	padding: 3px 6px;
+	text-align: right;
+	font-weight: bold;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+form.php_forms label.groupEntry {
+	line-height: 1.4;
+}
+form.php_forms input[type="text"], form.php_forms input[type="password"], form.php_forms select, form.php_forms textarea {
+	width: 300px;
+	padding: 3px 6px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+form.php_forms textarea.small {
+	height: 100px;
+}
+form.php_forms textarea.medium {
+	height: 250px;
+}
+form.php_forms textarea.large {
+	height: 400px;
+}
+form.php_forms input[type="text"]:hover, form.php_forms input[type="password"]:hover, form.php_forms select:hover, form.php_forms textarea:hover {
+	border: 1px solid #bbb;
+}
+form.php_forms input[type="text"]:focus, form.php_forms input[type="password"]:focus, form.php_forms select:focus, form.php_forms textarea:focus {
+	background-color: #f9f9f9;
+	border: 1px solid #ccc;
+}
+form.php_forms input[type="submit"] {
+	width: 200px;
+	padding: 3px 6px;
+	background-color: #e4e4e4;
+	background-image: linear-gradient(to bottom, #efefef, #e4e4e4);
+	background-image: -moz-linear-gradient(top, #efefef, #e4e4e4);
+	background-image: -webkit-linear-gradient(top, #efefef, #e4e4e4);
+	font-weight: bold;
+	border: 1px solid #bbb;
+}
+form.php_forms input[type="submit"]:hover {
+	border: 1px solid #666;
+}
+@media screen and (max-width:480px) {
+	form.php_forms label {
+		display: block;
+		width: 90%;
+		text-align: left;
+	}
+	form.php_forms input[type="text"], form.php_forms input[type="password"], form.php_forms select, form.php_forms textarea {
+		width: 90%;
+	}
+}
