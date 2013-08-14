@@ -59,6 +59,10 @@ echo $form->getHTML();
 ?>
 ```
 
+## Preview
+
+![Preview](preview.png "This is what it will look like!")
+
 ## Checking responses
 
 ```
