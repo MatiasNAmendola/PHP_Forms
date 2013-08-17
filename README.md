@@ -21,7 +21,7 @@ PHP library for creating HTML forms fast and easily with PHP. Takes care of all 
 
 ## Using the library
 
-```
+```php
 <?php include 'PHP_Forms.php'; ?>
 <link rel="stylesheet" type="text/css" media="all" href="PHP_Forms.css" />
 <script type="text/javascript" src="PHP_Forms.js"></script>
@@ -29,7 +29,7 @@ PHP library for creating HTML forms fast and easily with PHP. Takes care of all 
 
 ## Example
 
-```
+```php
 <?php
 $form = new PHP_Forms('Bitte füllen Sie alle Pflichtfelder (*) aus!', true);
 $form->setMethod(PHP_Forms::METHOD_POST);
@@ -62,7 +62,7 @@ echo $form->getHTML();
 
 ## Checking responses
 
-```
+```php
 <?php
 if (PHP_Forms::hasResponse(PHP_Forms::METHOD_POST)) {
 	if (PHP_Forms::Response_isValid()) {
@@ -82,7 +82,7 @@ if (PHP_Forms::hasResponse(PHP_Forms::METHOD_POST)) {
 
 ## Sending emails
 
-```
+```php
 <?php
 $mail = new PHP_Forms_Mail('sender@example.org', 'John Doe', 'Sample subject');
 $mail->addRecipient('jane@example.org');
