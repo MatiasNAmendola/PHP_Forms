@@ -31,7 +31,7 @@ PHP library for creating HTML forms fast and easily with PHP. Takes care of all 
 
 ```php
 <?php
-$form = new PHP_Forms('Bitte füllen Sie alle Pflichtfelder (*) aus!', true);
+$form = new PHP_Forms('Please fill out all required fields (*)!', true);
 $form->setMethod(PHP_Forms::METHOD_POST);
 
 $section_name = $form->addSection('Your name:');
