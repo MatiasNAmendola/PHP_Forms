@@ -21,7 +21,7 @@ PHP library for creating HTML forms fast and easily with PHP. Takes care of all 
 
 ## Using the library
 
-```php
+```html
 <?php include 'PHP_Forms.php'; ?>
 <link rel="stylesheet" type="text/css" media="all" href="PHP_Forms.css" />
 <script type="text/javascript" src="PHP_Forms.js"></script>
